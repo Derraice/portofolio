@@ -56,7 +56,7 @@ export default function Skills() {
             },
           }}
         >
-          {projects.forEach((project) => (
+          {projects.map((project) => (
             <SplideSlide>
               <motion.div
                 animate={{ opacity: 1 }}
